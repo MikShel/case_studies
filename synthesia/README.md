@@ -13,6 +13,14 @@ Three views:
 
 Everything is simulated: no Synthesia API, no LLM, no network. The Creator's boundary really drives the session.
 
+## Screenshots
+
+| | |
+|---|---|
+| ![Boundary editor](docs/screenshots/1-boundary-editor.png) **Creator · boundary editor**: every step is tagged *User can do*, *Needs admin* or *Never via avatar*, with its source. Untagged means Needs admin. | ![Test before publish](docs/screenshots/2-test-before-publish.png) **Creator · test before publish**: the same engine as the live session, checked against two rules. Publish stays locked until every scenario passes. |
+| ![Employee handoff](docs/screenshots/3-employee-handoff.png) **Employee · handoff**: Ava offers each step on the page, then prepares a ready-to-approve request for the admin, with a workaround meanwhile. | ![Live admin call](docs/screenshots/4-live-admin-call.png) **Live admin call**: Ava opens with the summary. The admin asks her to check, then approves the team-wide fix on the call. |
+| ![Rollout insights](docs/screenshots/5-rollout-insights.png) **Rollout insights**: aggregated and anonymised. 38 people stuck on one step means one config fix, not 36 tickets. | ![Ava's role](docs/screenshots/6-avas-role.png) **Ava's role**: the admin grants what Ava may check beyond the screen. Every action she takes on the page is in the audit log, with the employee's OK. |
+
 ## Run
 ```bash
 npm install
