@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b4a6b"/>
+      <stop offset="1" stop-color="#1e2638"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" fill="url(#bg)"/>
+  <!-- shoulders -->
+  <path d="M30 240c6-46 44-68 90-68s84 22 90 68z" fill="#2f6fb5"/>
+  <path d="M100 172h40l-6 22h-28z" fill="#e9b996"/>
+  <!-- hair back -->
+  <path d="M62 112c-4-50 22-80 58-80s64 30 58 80c-2 26-6 46-14 58H76c-8-12-12-32-14-58z" fill="#3a2a22"/>
+  <!-- face -->
+  <ellipse cx="120" cy="112" rx="44" ry="52" fill="#f2c7a5"/>
+  <!-- hair front -->
+  <path d="M74 98c6-34 30-50 52-50 22 0 40 14 44 42-18-4-40-14-52-30-8 18-24 32-44 38z" fill="#3a2a22"/>
+  <!-- eyes -->
+  <ellipse cx="102" cy="114" rx="5" ry="6" fill="#2b2b2b"/>
+  <ellipse cx="138" cy="114" rx="5" ry="6" fill="#2b2b2b"/>
+  <path d="M93 102q9-6 18 0M129 102q9-6 18 0" stroke="#3a2a22" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- nose & mouth -->
+  <path d="M120 120q-4 12 0 16" stroke="#d29a7a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M106 145q14 10 28 0" stroke="#b5524a" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
